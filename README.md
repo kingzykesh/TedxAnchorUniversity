@@ -2,7 +2,7 @@
 
 **Project Name:** TedxAnchor University Event Registration Website
 
-**Website URL:** https://bit.ly/TedxAnchoruniversityreg
+**Website URL:** https://bit.ly/TedxAnchorUniversityReg
 **Description:**
 
 This website serves as the official registration platform for TedxAnchor University, an event designed to gather inspiring ideas and connect the Anchor University community with innovative thinkers and doers. It enables seamless participant registration and data collection through a user-friendly interface built with HTML, CSS, and JavaScript.
