@@ -69,7 +69,6 @@ form.secActive .form.first{
 .container form .title{
     display: block;
     margin-bottom: 8px;
-    width: 89%;
     font-size: 16px;
     font-weight: 500;
     margin: 6px 0;
@@ -77,16 +76,52 @@ form.secActive .form.first{
 }
 .container form .fields{
     display: flex;
-    width: 89%;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 form .fields .input-field{
     display: flex;
-    width: 89%;
+    width: calc(100% / 3 - 15px);
     flex-direction: column;
     margin: 4px 0;
+}
+
+.input-field textarea, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 44px;
+    width: 89%;
+    margin: 8px 0;
+}
+
+.input-cate textarea, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 49px;
+    margin: 8px 0;
+}
+
+.input-cate textarea, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 49px;
+    margin: 8px 0;
 }
 
 form .fields .input-cate{
@@ -94,6 +129,13 @@ form .fields .input-cate{
     width: 100%;
     flex-direction: column;
     width: 89%;
+    margin: 4px 0;
+}
+
+form .fields .input-cate{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
     margin: 4px 0;
 }
 
@@ -129,7 +171,6 @@ form .fields .image-field{
     border: 1px solid #aaa;
     padding: 0 15px;
     height: 44px;
-    width: 89%;
     margin: 8px 0;
 }
 
@@ -205,7 +246,7 @@ form .buttons button , .backBtn{
        display: none;
     }
     form .fields .input-field{
-        width: 100px;
+        width: calc(100% / 2 - 15px);
     }
 }
 
