@@ -246,7 +246,7 @@ form .buttons button , .backBtn{
        display: none;
     }
     form .fields .input-field{
-        width: calc(100% / 2 - 15px);
+        width: 80%;
     }
 }
 
