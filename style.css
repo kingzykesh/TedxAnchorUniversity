@@ -96,7 +96,7 @@ form .fields .input-field{
     border: 1px solid #aaa;
     padding: 0 15px;
     height: 44px;
-    width: 89%;
+    width: 75%;
     margin: 8px 0;
 }
 
@@ -108,6 +108,7 @@ form .fields .input-field{
     border-radius: 5px;
     border: 1px solid #aaa;
     padding: 0 15px;
+    width: 75%;
     height: 49px;
     margin: 8px 0;
 }
@@ -120,6 +121,7 @@ form .fields .input-field{
     border-radius: 5px;
     border: 1px solid #aaa;
     padding: 0 15px;
+    width: 75%;
     height: 49px;
     margin: 8px 0;
 }
@@ -128,13 +130,13 @@ form .fields .input-cate{
     display: flex;
     width: 100%;
     flex-direction: column;
-    width: 89%;
+    width: 75%;
     margin: 4px 0;
 }
 
 form .fields .input-cate{
     display: flex;
-    width: 100%;
+    width: 75%%;
     flex-direction: column;
     margin: 4px 0;
 }
@@ -171,6 +173,7 @@ form .fields .image-field{
     border: 1px solid #aaa;
     padding: 0 15px;
     height: 44px;
+    width: 75%;
     margin: 8px 0;
 }
 
@@ -183,6 +186,7 @@ form .fields .image-field{
     border: 1px solid #aaa;
     padding: 0 15px;
     height: 49px;
+    width 75%;
     margin: 8px 0;
 }
 .input-field input :focus,
