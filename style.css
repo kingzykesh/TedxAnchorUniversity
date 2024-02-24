@@ -42,7 +42,7 @@ body{
 .container form{
     position: relative;
     margin-top: 16px;
-    min-height: 490px;
+    min-height: 760px;
     background-color: #fff;
     overflow: hidden;
 }
@@ -87,6 +87,13 @@ form .fields .input-field{
     margin: 4px 0;
 }
 
+form .fields .input-cate{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 4px 0;
+}
+
 form .fields .image-field{
     display: flex;
     width: calc(100% / 3 - 15px);
@@ -109,7 +116,35 @@ form .fields .image-field{
     height: 42px;
     margin: 8px 0;
 }
+
+.input-field textarea, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 44px;
+    margin: 8px 0;
+}
+
+.input-cate textarea, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 49px;
+    margin: 8px 0;
+}
 .input-field input :focus,
+.input-field select:focus{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+.input-field textarea :focus,
 .input-field select:focus{
     box-shadow: 0 3px 6px rgba(0,0,0,0.13);
 }
