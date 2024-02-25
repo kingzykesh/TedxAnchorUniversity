@@ -96,7 +96,7 @@ form .fields .input-field{
     border: 1px solid #aaa;
     padding: 0 15px;
     height: 44px;
-    width: 89%;
+   width: calc(100% / 3 - 15px);
     margin: 8px 0;
 }
 
