@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!----======== CSS ======== -->
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-     
-    <!----===== Iconscout CSS ===== -->
+    <!-- Iconscout CSS -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <title>TedxAnchorUniversity </title> 
@@ -17,6 +16,7 @@
     <div class="container">
         <header>Registration Form</header> <br>
 
+     
         <form action="https://formsubmit.co/kingzykesh634@gmail.com"  method="POST" enctype="multipart/form-data">
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_subject" value="TedxAnchorUniversity Registration!">
@@ -105,18 +105,28 @@
                         
                     </div>
 
-                    <button class="sumbit">
+                    <button type="submit" class="submit">
                         <span class="btnText">Submit</span>
                         <i class="uil uil-navigator"></i>
                     </button>
                 </div> 
             </div>
-
-            
-            </div>
         </form>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+        // JavaScript for handling form submission
+        document.getElementById("registrationForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent default form submission
+            
+            // Your form submission code here
+            
+            // Show alert message
+            alert("Registration Successful!");
+            
+            // Optionally, you can redirect the user to another page after submission
+            // window.location.href = "https://example.com/thank-you";
+        });
+    </script>
 </body>
 </html>
